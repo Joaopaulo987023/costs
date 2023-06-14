@@ -1,0 +1,79 @@
+{
+  "projects": [
+    {
+      "name": "meu projeto",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": -2689,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Projeto Loja online 3",
+      "budget": "4000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "costs": 3000,
+      "services": [
+        {
+          "name": "divulgação",
+          "costs": "1000",
+          "description": "Divulgação nas redes socias e rádios",
+          "id": "871ff14b-af07-480b-a3f9-7985ac7b6181"
+        },
+        {
+          "name": "Contratar Dev Php",
+          "costs": "2000",
+          "description": "Vai criar a função de envio de emails",
+          "id": "ac4ade42-1bb3-4b64-945c-8552f06f415a"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Projeto Curso",
+      "budget": "3480",
+      "category": {
+        "id": "3",
+        "name": "Designer"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "name": "Projeto jv",
+      "budget": "9000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Designer"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
