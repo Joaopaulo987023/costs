@@ -7,7 +7,7 @@
         "id": "1",
         "name": "Infra"
       },
-      "costs": -2689,
+      "costs": 0,
       "services": [],
       "id": 1
     },
@@ -19,9 +19,7 @@
         "name": "Planejamento"
       },
       "costs": 3000,
-      "services": [
-        
-      ],
+      "services": [],
       "id": 3
     },
     {
