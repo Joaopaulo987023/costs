@@ -20,18 +20,7 @@
       },
       "costs": 3000,
       "services": [
-        {
-          "name": "divulgação",
-          "costs": "1000",
-          "description": "Divulgação nas redes socias e rádios",
-          "id": "871ff14b-af07-480b-a3f9-7985ac7b6181"
-        },
-        {
-          "name": "Contratar Dev Php",
-          "costs": "2000",
-          "description": "Vai criar a função de envio de emails",
-          "id": "ac4ade42-1bb3-4b64-945c-8552f06f415a"
-        }
+        
       ],
       "id": 3
     },

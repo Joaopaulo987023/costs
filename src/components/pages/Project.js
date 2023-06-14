@@ -107,13 +107,14 @@ function Project(){
 
     function removeService(id,costs){
 
-        const servicesUpdated = project.services.filter((service)=>service.id!==id)
-
-        const projectUpdated = project
-
-        projectUpdated.services=servicesUpdated
-
-        projectUpdated.costs = parseFloat(projectUpdated.costs) - parseFloat(costs)
+        const servicesUpdated = project.services.filter(
+            (service) => service.id !== id,
+          )
+      
+          const projectUpdated = project
+      
+          projectUpdated.services = servicesUpdated
+          projectUpdated.costs = parseFloat(projectUpdated.costs) - parseFloat(costs)
 
 
         fetch(`http://localhost:5000/projects/${projectUpdated.id}`,{
